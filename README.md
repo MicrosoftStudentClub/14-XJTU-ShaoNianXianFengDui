@@ -18,7 +18,7 @@
 利用 Selective Search 提出的 Region Proposals 结合卷积神经网络的R-CNN的方法提出后，Object detection 的性能有了一个质的飞越。基于 R-CNN 发展出来的 SPPnet、Fast R-CNN、Faster R-CNN 等方法，证明了 “Proposal + Classification” 的方法 在 Objection Detection 上的有效性。</br>
 然而，使用Region Proposal的方法速度依然较慢，无法达到实时检测，几年前提出了一种更简单，更有效的物体检测方法YOLO。由于其在效率，准确性和便利性方面极大领先于先前的网络模型，我们选择YOLO来完成此次项目。</br>
 ## YOLO
-YOLO is an approach of objection, in which the detection is treated as a regression problem. A single neural network predicts the bounding boxes and calss possibilities directly from the images in a single evaluation. Due to the simplicity of the detection process, YOLO runs at a surprisingly fast speed, 45 frames per second.</br>
+YOLO is an approach of object detection, in which the detection is treated as a regression problem. A single neural network predicts the bounding boxes and calss possibilities directly from the images in a single evaluation. Due to the simplicity of the detection process, YOLO runs at a surprisingly fast speed, 45 frames per second.</br>
 The network structure of the YOLO network is shown in the figure below (Source: J. Redmon, S. Divvala, R. Girshick, A. Farhadi. You Only Look Once: Unified, Real-Time Object Detection [*arXiv:1506.02640v5*](https://arxiv.org/abs/1506.02640v5)).
 ![Image text](https://github.com/WALKMAN2000/14-XJTU-ShaoNianXianFengDui/blob/master/demo_img/YOLO_architecture.jpg)
 
