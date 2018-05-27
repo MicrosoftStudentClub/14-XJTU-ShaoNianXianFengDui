@@ -1,5 +1,7 @@
 # 14-XJTU-ShaoNianXianFengDui
-###MSRA学生项目作品--西安交通大学
+MSRA学生项目作品--西安交通大学
+![](https://github.com/WALKMAN2000/14-XJTU-ShaoNianXianFengDui/demo_img1.JPG)
+上图是我们的最终效果
 
 
 ## Introduction
